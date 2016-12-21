@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alarm Day Countdown</string>
+    <string name="preface"> There are only </string>
+    <string name="numberPlaceholder">...</string>
+    <string name="postface"> days until the next best ever </string>
+    <string name="event">Burning Conflagration in your Oral Cavity
+    Not the Thomas Jefferson Residence Hall, i.e. A Fire in your Mouth,
+    Not in your Hall!</string>
+    <string name="tagline">#DontGetFiredUp</string>
+</resources>

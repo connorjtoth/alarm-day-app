@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView android:text="@string/preface" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/prefaceText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberText"
+        android:textSize="@dimen/abc_text_size_display_4_material"
+        android:text="@string/numberPlaceholder"
+        android:singleLine="true"
+        android:layout_below="@+id/prefaceText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/postface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:id="@+id/postfaceText"
+        android:layout_below="@+id/numberText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:id="@+id/eventText"
+        android:layout_below="@+id/postfaceText" />
+
+    <TextView
+        android:text="@string/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:id="@+id/taglineText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/abc_action_bar_stacked_max_height"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
