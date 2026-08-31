@@ -7,9 +7,10 @@ package com.example.connor.alarmday;
  */
 
 /* Dependencies */
+
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Context;
+import android.content.DialogInterface;
 
 /* class ErrorDialog
  * Shows an error message in an Alert Dialog.
